@@ -1,0 +1,45 @@
+form {
+  display: inline;
+  margin: 10px;
+}
+
+.message-container {
+  flex-grow: 1; 
+  border: 1px solid black; 
+  overflow-y: auto;
+}
+
+.console-container {
+  flex-grow: 1; 
+  overflow-y: auto;
+  border: 1px solid black; 
+  margin-bottom: 10px;
+  max-height: 20%; 
+  min-height: 20%;
+}
+
+.message-container div{
+  background-color: #E8F4FF; 
+  padding-left: 10px; 
+  overflow-y: scroll;
+}
+
+.console-container div{ 
+  background-color: #FFFFCF; 
+  padding-left: 10px; 
+}
+
+body {
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  height: 100vh; 
+  width: 90%; 
+  max-width: 1200px;
+}
+
+
+#messaging {
+  margin-bottom: 10px; 
+}
