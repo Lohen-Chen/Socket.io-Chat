@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form id="room">
+      <label for="roomid">Room</label>
+      <input type="text" id="roomid">
+      <button type="submit" id="join-room">Join</button>
+    </form>
+    <div class="message-container" id="messagecontainer"></div>
+    <form id="messaging">
+      <label for="message">Message</label>
+      <input type="text" id="message">
+      <button type="submit" id="send">Send</button>
+    </form>
+    <div class="console-container" id="console"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
